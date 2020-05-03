@@ -1,0 +1,112 @@
+/* CSS files add styling rules to your content */
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 2em;
+  background-color: #2b2b2b;
+  background: url("https://wallpaperaccess.com/full/1390896.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.font {
+font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align:center;
+  color:white;
+  font-size: 50px;
+  margin-top: 3em;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+  color:white;
+}
+
+#SAT {
+  font-size: 16px;  
+}
+
+.explanation {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 14px;
+}
+
+.center {
+  display: flex;
+  justify-content: center; 
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.padding {
+  padding: 0.5%;
+}
+
+.option > form > input, .subjectOptions{
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  background-color: white;
+  border: solid #2b2b2b 1px;
+  font-size: 30px; 
+}
+
+.subjectOptions> button:not([disabled]):hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2b2b2b;
+  border: none;
+  transition: all 0.4s;
+}
+
+.option > form > input:not([disabled]):hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2b2b2b;
+  border: none;
+  transition: all 0.4s;
+}
+
+ .option > button {
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+}
+
+.option> button:not([disabled]):hover {
+  color: white;
+  cursor: pointer;
+  background-color: #2b2b2b;
+  border: none;
+  transition: all 0.4s;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+}
+.ourMission {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 14px;
+}
+
+#aboutus{
+  font-size:16px;
+}

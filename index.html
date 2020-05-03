@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inspire SAT: A Free SAT Prep App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- import the webpage's javascript file -->
+    
+    
+  </head>  
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+    <nav>
+
+       <div class="center option">
+          <button id="SAT" class="landingPagebutton">
+            What's an SAT?
+          </button>
+          <div class="padding">
+          </div>
+          <button id="aboutus" class="landingPagebutton">
+            Our Mission
+          </button>
+        </div>      
+    </nav>
+    <div>
+      <p class="center explanation alignCenter">
+        The SAT test is one of the crucial extrance exams for colleges all over 
+        America.  Many colleges and universities look at SAT/ACT scores as a reference
+        for a student's readiness for College/University when picking an applicant for 
+        their schools.  The SAT test has two required sections: Evidence-Based Reading
+        and Writing, and Mathematics.  The scores from each required section can range
+        from 200 to 800, so the best possible total score would be 1600.
+      </p>
+      
+      <p class="center explanation">
+        El examen SAT es uno de los exámenes más importantes para todas las universidades.
+        America. Muchos colegios y universidades miran los puntajes SAT / ACT como referencia
+        para la preparación de un estudiante para la universidad / universidad al elegir un solicitante para
+        sus escuelas El examen SAT tiene dos secciones requeridas: Lectura basada en evidencia
+        y Escritura y Matemáticas. Los puntajes de cada sección requerida pueden variar
+        de 200 a 800, por lo que el mejor puntaje total posible sería 1600.
+      </p>
+    </div>
+    
+    <div>
+      <p class="center ourMission">
+        Many low-income communities don't have access to SAT and ACT resources so we created Inspire SAT. We wanted to create 
+        an engaging way to study for these tests and the best part is that it's free! We understand that not everyone can afford a tutor
+        so we included a chat box where you can ask questions and will recieve help from educators.  
+      </p>
+    </div>
+    
+    <div class="pageOne title center">
+      <h1>
+        Welcome to Inspire SAT, Are you a:
+      </h1>
+    </div>
+    <div class="pageOne option center">
+      <button id="student" class="landingPagebutton center">
+        Student
+      </button>
+      <div class="padding">
+      </div>
+      <button id="educator" disabled>
+        Educator
+      </button>
+    </div>
+    
+    <div class="pageTwo title center">
+      <h1>
+        Which test do you want to practice?
+      </h1>
+    </div>
+    <div class= "pageTwo option center">
+      <button id="sat" class="center">
+        SAT
+      </button>
+      <div class="padding">
+      </div>
+      <button id="act" class="center" disabled>
+        ACT (Coming Soon)
+      </button>
+    </div>
+    
+    <div class="pageThree title center">
+      <h1 class="center">
+        How much time do you have today?
+      </h1>
+    </div>
+    <div class="pageThree option center">
+      <button id="fiveMinutes" class="center">
+        5 min
+      </button>
+      <div class="padding">
+      </div>
+      <button id="tenMinutes" class="center">
+        10 min
+      </button>
+      <div class="padding">
+      </div>
+      <button id="fifteenMinutes" class="center">
+        15 min
+      </button>
+      <div class="padding">
+      </div>
+      <button id="twentyMinutes" class="center">
+        20 min
+      </button>
+      <div class="padding">
+      </div>
+      <button id="more" class="center">
+        20+ min
+      </button>
+    </div>
+    
+    <div class="pageFour title option center">
+      <h1 class="center">
+        What subjects would you like to focus on today?
+      </h1>
+    </div>
+    <div class="pageFour option center">
+      <form action="SATtest.html">
+        <input type="submit" value="Math" id="mathSection">  
+      </form>
+      <div class="padding">
+      </div>
+      <button id="englishSection" class="center" disabled>
+        English
+      </button>
+      <div class="padding">
+      </div>
+      <button id="randomSection" class="center" disabled>
+        Random
+      </button>
+    </div>
+    <footer>
+      <p>
+        © 2020 Inspire SAT Inc. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
