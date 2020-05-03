@@ -1,0 +1,157 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 2em;
+  background: url("https://cdn.glitch.com/7efbe762-ff93-4cfe-bb5f-fee329cad181%2Fchalkboard.jpg?v=1581119311757") center bottom
+    no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.arrow,
+.question {
+  color: white;
+}
+
+.explain {
+  display: none;
+  text-align: center;
+}
+
+.explain > div {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: row;
+}
+
+.answer p {
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+}
+
+.mc {
+  border-radius: 100%;
+  font-size: 24px;
+  margin: 5px;
+  width: 4em;
+  height: 4em;
+  padding: 0;
+  background-color: white;
+}
+
+.mc.selected {
+  background-color: skyblue;
+}
+
+.mc:hover {
+  background: skyblue;
+}
+
+.arrow {
+  height: 40px;
+  width: auto;
+  right: 40px;
+}
+
+.flexbutton {
+  padding: 0;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  line-height: 50px;
+  font-size: 1.5em;
+  font-family: inherit;
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.flexbutton a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flexbutton > div {
+  display: flex;
+}
+
+.flexbutton img {
+  margin-left: 5px;
+  height: 20px;
+}
+
+.alignright,
+.helpbutton,
+.queuebutton,
+.tutordiv {
+  text-align: right;
+}
+
+.flagimg,
+.tutoring {
+  height: 60px;
+  width: auto;
+}
+.flagimg {
+  height: 30px;
+  width: 30px;
+}
+
+.countdown {
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 20px;
+  width: 4em;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background-color: black;
+}
+
+.chatbox {
+  position: fixed;
+  top: 290px;
+  right: 20px;
+  color: black;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20%;
+  display: none;
+}
+
+.action-panel {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  right: 20px;
+}
+
+.nextbutton {
+  color: white;
+}
